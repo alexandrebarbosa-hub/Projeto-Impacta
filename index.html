@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GameScore</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="topbar">
+        <div class="brand-wrap">
+          <div class="brand-mark">G</div>
+          <div class="brand-text">GameScore</div>
+        </div>
+
+        <nav class="main-nav" aria-label="Navegação principal">
+          <a href="#">Início</a>
+          <a href="#">Reviews</a>
+          <a href="#">Lançamentos</a>
+          <a href="#">Comunidade</a>
+        </nav>
+
+        <div class="header-actions">
+          <button class="btn btn-light">Entrar</button>
+          <button class="btn btn-primary">Criar conta</button>
+        </div>
+      </header>
+
+      <main class="content">
+        <section class="hero">
+          <div class="hero-copy">
+            <span class="eyebrow">Avaliações da comunidade</span>
+            <h1>Cyberstrike Arena</h1>
+
+            <div class="hero-meta">
+              <span class="rating-pill">★ 4.8/5</span>
+              <span>FPS</span>
+              <span>Multiplayer</span>
+              <span>12,4 mil reviews</span>
+            </div>
+
+            <p>
+              Uma arena futurista repleta de estratégia, ação intensa e partidas
+              explosivas. O jogo entrega um combate competitivo com mecânicas
+              profundas, visual impactante e uma comunidade extremamente ativa.
+            </p>
+
+            <div class="hero-actions">
+              <button class="btn btn-primary">Ver avaliação</button>
+              <button class="btn btn-ghost">Salvar jogo</button>
+            </div>
+
+            <div class="score-grid" aria-label="Notas do jogo">
+              <div class="score-card">
+                <span class="score-label">Gráficos</span>
+                <strong>9.5</strong>
+              </div>
+              <div class="score-card">
+                <span class="score-label">Jogabilidade</span>
+                <strong>9.3</strong>
+              </div>
+              <div class="score-card">
+                <span class="score-label">História</span>
+                <strong>8.9</strong>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-art">
+            <div class="poster-wrap">
+              <div class="poster-glow"></div>
+              <img
+                src="https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=900&q=80"
+                alt="Capa do jogo Cyberstrike Arena"
+              />
+              <div class="poster-badge">Top 2026</div>
+            </div>
+          </div>
+        </section>
+
+        <section class="dashboard">
+          <aside class="sidebar">
+            <div class="panel">
+              <div class="panel-head">
+                <h3>Top review</h3>
+                <span>Hoje</span>
+              </div>
+
+              <div class="review-snippet">
+                <div class="avatar">M</div>
+                <div>
+                  <strong>Mateus R.</strong>
+                  <span>“O melhor shooter de 2026.”</span>
+                </div>
+              </div>
+
+              <div class="review-meta">
+                <div>
+                  <span class="meta-label">Nota</span>
+                  <strong>9.8</strong>
+                </div>
+                <div>
+                  <span class="meta-label">Horas</span>
+                  <strong>146h</strong>
+                </div>
+              </div>
+            </div>
+
+            <div class="panel sentiment-panel">
+              <div class="panel-head">
+                <h3>Sentimento</h3>
+                <span>+87%</span>
+              </div>
+
+              <div class="bar-group">
+                <div class="bar-row">
+                  <label>Positivo</label>
+                  <div class="bar"><span style="width: 87%"></span></div>
+                  <strong>87%</strong>
+                </div>
+                <div class="bar-row">
+                  <label>Neutro</label>
+                  <div class="bar"><span style="width: 10%"></span></div>
+                  <strong>10%</strong>
+                </div>
+                <div class="bar-row">
+                  <label>Negativo</label>
+                  <div class="bar"><span style="width: 3%"></span></div>
+                  <strong>3%</strong>
+                </div>
+              </div>
+            </div>
+          </aside>
+
+          <div class="main-panel">
+            <div class="section-header">
+              <div>
+                <span class="eyebrow muted">Explore</span>
+                <h2>Jogos em alta</h2>
+              </div>
+
+              <div class="filter-group" aria-label="Filtros de categoria">
+                <button class="chip active">Todos</button>
+                <button class="chip">FPS</button>
+                <button class="chip">RPG</button>
+                <button class="chip">Aventura</button>
+              </div>
+            </div>
+
+            <div class="cards-grid">
+              <article class="game-card">
+                <div class="cover cover-one"></div>
+                <div class="card-body">
+                  <div class="card-topline">
+                    <span class="tag">FPS</span>
+                    <span class="stars">★★★★★</span>
+                  </div>
+                  <h3>Neon Rift</h3>
+                  <p>Uma experiência intensa com combate ágil e mapas envolventes.</p>
+                  <div class="card-footer">
+                    <strong>4.9</strong>
+                    <span>1,8k reviews</span>
+                  </div>
+                </div>
+              </article>
+
+              <article class="game-card">
+                <div class="cover cover-two"></div>
+                <div class="card-body">
+                  <div class="card-topline">
+                    <span class="tag">RPG</span>
+                    <span class="stars">★★★★☆</span>
+                  </div>
+                  <h3>Stonefall</h3>
+                  <p>Exploração profunda, loot estratégico e mundo aberto imersivo.</p>
+                  <div class="card-footer">
+                    <strong>4.7</strong>
+                    <span>950 reviews</span>
+                  </div>
+                </div>
+              </article>
+
+              <article class="game-card">
+                <div class="cover cover-three"></div>
+                <div class="card-body">
+                  <div class="card-topline">
+                    <span class="tag">Aventura</span>
+                    <span class="stars">★★★★★</span>
+                  </div>
+                  <h3>Skybound</h3>
+                  <p>Voo livre, missões épicas e um visual deslumbrante em mundo aberto.</p>
+                  <div class="card-footer">
+                    <strong>4.8</strong>
+                    <span>2,3k reviews</span>
+                  </div>
+                </div>
+              </article>
+            </div>
+          </div>
+        </section>
+      </main>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
